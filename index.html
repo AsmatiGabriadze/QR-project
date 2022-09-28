@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .main{
+      margin:auto;
+      width: 320px;
+      height: 497px;
+      background-color: white;
+      border-radius: 20px;
+      display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: center;
+
+    }
+    body{
+      background: #F2F2F2
+    }
+    .header{
+      height: 56px;
+width: 288px;
+color: rgba(31, 49, 79, 1);
+font-family: 'Outfit', sans-serif;
+font-size: 22px;
+font-weight: 700;
+text-align: center;
+ }
+ .smallheader{
+  height: 57px;
+width: 256px;
+font-family: 'Outfit', sans-serif;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.1875px;
+text-align: center;
+color: rgba(125, 136, 158, 1);
+
+
+ }
+ .blue{
+  height: 288px;
+width: 288px;
+border-radius: 10px;
+background: rgba(44, 125, 250, 1);
+
+ }
+ .none{
+  display: flex;
+
+justify-content:center;
+
+ }
+ .none img{
+  width: 288px;
+  height: 288px;
+  text-align: center;
+ }
+ @media screen and (max-width: 335px) {
+  body{
+  width: 375px;
+  height: 667px;
+  }
+    
+}
+  </style>
+</head>
+<body>
+<div class="main">
+<div class="blue"><div class="none"><img src="images/image-qr-code.png" alt=""></div></div>
+
+  <div class="header"> Improve your front-end skills by building projects</div> 
+
+  <div class="smallheader">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">A.Gabriadze</a>.
+  </div>
+ 
+</div>
+</body>
+</html>
